@@ -3,7 +3,6 @@
 
 This project demonstrates the deployment of WordPress and MySQL on Kubernetes using StatefulSets. WordPress relies on MySQL as its backend, and the stateful nature of StatefulSets ensures stable storage and network identities for these applications.
 
-```markdown
 # Table of Contents
   - [Prerequisites](#prerequisites)
   - [Project Structure](#project-structure)
@@ -87,7 +86,7 @@ This project demonstrates the deployment of WordPress and MySQL on Kubernetes us
 
 To delete the deployed resources, run the following commands:
 
-```bash
+```
 kubectl delete -f wordpress-service.yaml
 kubectl delete -f wordpress-statefulset.yaml
 kubectl delete -f wordpress-pv-pvc.yaml
